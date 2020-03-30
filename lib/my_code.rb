@@ -12,13 +12,13 @@ end
 
 
 def reduce(array, second = nil)
+
 if second
   sum = second 
   i = 0
 else
   sum = array[0]
   i = 1 
-  
 end
 
 while i < array.length
